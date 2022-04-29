@@ -1,0 +1,30 @@
+<h1>Hello World</h1>
+
+
+<p>
+	This is my first webpage
+</p>
+
+<p> Isnt this so cool?</p>
+
+<p> My Name is {{ first_name }}</p>
+
+<p>{{ stuff | safe}}</p>
+
+<h3> favourite pizza </h3>
+
+{% for topping in favourite_pizza %} <!-- used for logic and loops, e.g loop statements-->
+
+	{{ topping }} <br/> <br/> <!-- Used for Functional statements, data-->
+
+{% endfor %}
+
+<br/> <br/>
+
+{{ favourite_pizza.1 }}
+<br/> <br/>
+
+{{ favourite_pizza.0 }}
+<br/> <br/>
+
+{{ favourite_pizza.3 }}
